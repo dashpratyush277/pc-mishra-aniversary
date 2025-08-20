@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC MISHRA Anniversary Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">PC MISHRA</h1>
+            <p class="hero-subtitle">Anniversary Celebration Gallery</p>
+            <div class="hero-decoration"></div>
+        </div>
+    </header>
+
+    <main class="gallery-container">
+        <div class="gallery-grid" id="galleryGrid">
+            <!-- Images will be dynamically loaded here -->
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img id="lightbox-img" class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-btn prev-btn">&#10094;</button>
+            <button class="nav-btn next-btn">&#10095;</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 PC MISHRA Anniversary Gallery</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
